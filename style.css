@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(252, 244, 217);
+}
+.main{
+    gap: 30px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textInput{
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: rgb(105, 105, 105);
+    padding: 20px;
+    width: 250px;
+    height: 30px;
+    border-radius: 25px;
+    border: 0;
+    outline: none;
+}
+.input-form{
+    display: flex;
+    position: relative;
+    /* background-color: rgb(65, 11, 11); */
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.card p{
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: rgb(105, 105, 105);
+}
+.button {
+    cursor: pointer;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 10px;
+    position: absolute;
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(252, 244, 217);
+}
+img{
+    width: 20px;
+    height: 20px;
+}
